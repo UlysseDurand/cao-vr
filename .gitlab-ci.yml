@@ -11,11 +11,7 @@ pages:
     # Convert root README.md to HTML at /
     - pandoc README.md -o public/index.html
 
-    - cp * public/
-
-    # Copy pre-generated HTML directly to /v2/
-    - cp scanner3dV2/notebooks/main_pipeline.html public/v2/index.html
-    - cp -r scanner3dV2/notebooks/iframe_figures public/v2/
+    - rsync -a --exclude=public ./ public/ || true
 
   artifacts:
     paths:
