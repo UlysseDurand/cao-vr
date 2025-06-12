@@ -35,6 +35,7 @@ All documents are in French. Please note half of the team members were
 non-native French speakers.
 
 Available documents: 
+
 - [Final Report](Final_Report.pdf) - Comprehensive project documentation
 including: 
   - Project timeline and milestones 
@@ -60,5 +61,6 @@ Product Designer, it is meant to communicate with the Software Developers
 
 ## Acknowledgments
 We extend our gratitude to: 
+
 - Rémi FAVIER (ASSYSTEM) - Our client and project sponsor 
 - Patrick SERRAFERO (ECL) - Our academic advisor
