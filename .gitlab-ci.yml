@@ -7,6 +7,7 @@ pages:
   script:
     - mkdir -p public
     - pandoc README.md -o public/index.html --css=style.css
+    - cp style.css public/
     - cp -r assets public/
 
   artifacts:
