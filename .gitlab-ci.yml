@@ -5,14 +5,9 @@ pages:
     - apt-get update && apt-get install -y pandoc curl
 
   script:
-    # Make target folders
-    - mkdir -p public
-
-    # Convert root README.md to HTML at /
-    - pandoc README.md -o public/index.html
-
-    - rsync -a --exclude=public ./ public/ || true
+    # Convert root README.md to HTML
+    - pandoc README.md -o /index.html
 
   artifacts:
     paths:
-      - public
+      - .
