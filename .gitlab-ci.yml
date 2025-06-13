@@ -5,9 +5,10 @@ pages:
     - apt-get update && apt-get install -y pandoc curl
 
   script:
-    # Convert root README.md to HTML
-    - pandoc README.md -o /index.html
+    - mkdir -p public
+    - pandoc README.md -o public/index.html
+    - cp -r assets public/
 
   artifacts:
     paths:
-      - .
+      - public

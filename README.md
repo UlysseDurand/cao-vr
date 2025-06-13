@@ -3,7 +3,7 @@
 This project is a Computer-Aided Design (CAD) application developed for Virtual
 Reality (VR) environments using Unity. It can export the shapes the user built in the software into .STEP and .OBJ format.
 
-![Screenshot from the software](Screenshot.png)
+![Screenshot from the software](assets/Screenshot.png)
 
 ## Project Overview
 Developed as part of the [Projet d'Application Industrielle
@@ -36,7 +36,7 @@ non-native French speakers.
 
 Available documents: 
 
-- [Final Report](Final_Report.pdf) - Comprehensive project documentation
+- [Final Report](assets/Final_Report.pdf) - Comprehensive project documentation
 including: 
   - Project timeline and milestones 
   - Management artifacts (GANTT charts, tools) 
@@ -46,16 +46,16 @@ including:
   - Software architecture 
   - Team feedback 
 
-- [Slides](Slides.pdf) - Used during the final 20 minutes long oral presentation
+- [Slides](assets/Slides.pdf) - Used during the final 20 minutes long oral presentation
 
-- [Kick-Off Meeting Sheet](Kick_Off_Meeting.pdf) - First project document filled
+- [Kick-Off Meeting Sheet](assets/Kick_Off_Meeting.pdf) - First project document filled
 with client during the first meeting including: 
   - Context 
   - Objectives 
   - Ressources and constraints
   - First idea of the outline
 
-- [Design Document](Doc_Design.pdf) - Contains the UX and UI choices made by the
+- [Design Document](assets/Doc_Design.pdf) - Contains the UX and UI choices made by the
 Product Designer, it is meant to communicate with the Software Developers
 
 
