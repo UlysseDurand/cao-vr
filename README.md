@@ -19,7 +19,8 @@ architecture) are available in this repository, the source code itself is not
 publicly accessible.
 
 ## Project Demonstration
-View the final product demonstration on [YouTube](https://youtu.be/JCr8g94aiuc).
+View the final product demonstration on YouTube
+<iframe src="https://youtube.com/embed/JCr8g94aiuc"></iframe>
 
 ## Development Team
 - **Ulysse DURAND** - Team Manager & Software Architect 

@@ -1,15 +1,13 @@
-image: ubuntu:22.04
+stages:
+  - deploy
 
 pages:
-  before_script:
-    - apt-get update && apt-get install -y pandoc curl
-
+  stage: deploy
+  image: docker:latest
+  services:
+    - docker:dind
   script:
-    - mkdir -p public
-    - pandoc -s README.md -o public/index.html --css=style.css
-    - cp style.css public/
-    - cp -r assets public/
-
+    - docker run --rm -v "$(pwd):/data" ulyssedurand/readme2html:latest . . assets
   artifacts:
     paths:
       - public
