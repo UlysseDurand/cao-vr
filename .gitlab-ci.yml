@@ -7,11 +7,7 @@ pages:
     name: ulyssedurand/readme2html:1.0
     pull_policy: always
   script:
-    - readme2html \
-		-s . \
-		-t . \
-		-a assets \
-		-g https://gitlab.com/ulysse_durand/pai-cao-vr/
+    - readme2html -s . -t . -a assets -g https://gitlab.com/ulysse_durand/pai-cao-vr/
   artifacts:
     paths:
       - public
