@@ -7,7 +7,7 @@ pages:
   services:
     - docker:dind
   script:
-    - docker run --rm -v "$(pwd):/data" ulyssedurand/readme2html:latest . . assets
+    - docker run --rm -v "$(pwd):/data" ulyssedurand/readme2html:latest -s . -t . -a assets
   artifacts:
     paths:
       - public

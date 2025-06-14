@@ -1,7 +1,8 @@
 # PAi CAD VR Project
 
 This project is a Computer-Aided Design (CAD) application developed for Virtual
-Reality (VR) environments using Unity. It can export the shapes the user built in the software into .STEP and .OBJ format.
+Reality (VR) environments using Unity. It can export the shapes the user built
+in the software into .STEP and .OBJ format.
 
 ![Screenshot from the software](assets/Screenshot.png)
 
@@ -19,7 +20,8 @@ architecture) are available in this repository, the source code itself is not
 publicly accessible.
 
 ## Project Demonstration
-View the final product demonstration on YouTube
+View the final product demonstration on
+[YouTube](https://youtube.com/embed/JCr8g94aiuc)
 <iframe src="https://youtube.com/embed/JCr8g94aiuc"></iframe>
 
 ## Development Team
@@ -47,17 +49,19 @@ including:
   - Software architecture 
   - Team feedback 
 
-- [Slides](assets/Slides.pdf) - Used during the final 20 minutes long oral presentation
+- [Slides](assets/Slides.pdf) - Used during the final 20 minutes long oral
+  presentation
 
-- [Kick-Off Meeting Sheet](assets/Kick_Off_Meeting.pdf) - First project document filled
-with client during the first meeting including: 
+- [Kick-Off Meeting Sheet](assets/Kick_Off_Meeting.pdf) - First project
+  document filled with client during the first meeting including: 
   - Context 
   - Objectives 
   - Ressources and constraints
   - First idea of the outline
 
-- [Design Document](assets/Doc_Design.pdf) - Contains the UX and UI choices made by the
-Product Designer, it is meant to communicate with the Software Developers
+- [Design Document](assets/Doc_Design.pdf) - Contains the UX and UI choices
+  made by the Product Designer, it is meant to communicate with the Software
+Developers
 
 
 ## Acknowledgments
