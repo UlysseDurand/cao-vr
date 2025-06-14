@@ -3,11 +3,17 @@ stages:
 
 pages:
   stage: deploy
-  image: docker:latest
-  services:
-    - docker:dind
+  image: 
+    name: ulyssedurand/readme2html:1.0
+    pull_policy: always
   script:
-    - docker run --rm -v "$(pwd):/data" ulyssedurand/readme2html:latest -s . -t . -a assets
+    - readme2html 
+		-s . 
+		-t . 
+		-a assets
+		-g https://gitlab.com/ulysse_durand/pai-cao-vr/
   artifacts:
     paths:
       - public
+  only:
+    - main
